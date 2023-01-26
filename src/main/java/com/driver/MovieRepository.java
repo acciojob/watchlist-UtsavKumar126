@@ -98,8 +98,8 @@ public class MovieRepository {
         for(Director x:movieMap.keySet()){
             Set<Movie>delete=movieMap.get(x);
             for(Movie y:delete){
-                if(movieSet.contains(x)){
-                    movieSet.remove(x);
+                if(movieSet.contains(y)){
+                    movieSet.remove(y);
                 }
             }
         }
